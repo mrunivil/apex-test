@@ -1,0 +1,14 @@
+#chart {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 4rem;
+  width: 100%;
+}
+.legend {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  & > label {
+    word-wrap: break-word;
+  }
+}
